@@ -7,7 +7,16 @@ More information about regarding the project can be found in the [report](https:
 All the agents (DQN, Dueling DQN, Double Dueling DQN) can be run on Kaggle with the notebooks in the _Notebooks_ folder. Each notebook is divided into several enviroments (games) and types of agents.
 
 ## Results
+Below we have some plots about average reward per episode for each enviroments using the best agent, Double Dueling DQN.
+<img src="img/pongReward.png" width="350"> <img src="img/boxingReward.png" width="350"> 
 
+<img src="img/SMBReward_rightonly.png" width="350"> <img src="img/SMBReward.png" width="350"> 
+
+In addition, we can see the results after the training phase:
+
+<img src="img/pong.gif" width="200"> <img src="img/boxing.gif" width="200"> 
+
+<img src="img/smb_rightonly.gif" width="200"> <img src="img/smb_simplemove.gif" width="200">
 
 ## References
 1. Kauten, C. (2018). [Super Mario Bros for OpenAI Gym](https://github.com/Kautenja/gym-super-mario-bros). GitHub 
